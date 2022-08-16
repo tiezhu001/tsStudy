@@ -44,5 +44,8 @@ getResult<Ps>("ps");
 function echo<T extends {name:string}>(name:T){
     console.log(name);
 }
+
+
 echo({name:" 1"});
+
 
